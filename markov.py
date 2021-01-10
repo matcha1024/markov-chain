@@ -12,7 +12,7 @@ def wakati(text):
    return result
 def generate_text(num_sentence=50):
    #素材ファイル名
-   filename = "./test.txt"
+   filename = "./hanshin-awazi.txt"
    src = open(filename, "r").read()
    wordlist = wakati(src)
    markov = {}
