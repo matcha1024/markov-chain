@@ -39,8 +39,8 @@ def generate_text(num_sentence=50):
            sentence += '\n'
        w1, w2 = w2, tmp
        i += 1
-       #if(i > limit):
-        #break
+       if(i > limit):
+        break
     
    print(sentence)
     
